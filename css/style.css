@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.jumbotron {
+    background-image: url('../img/hero-image.png');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.jumbotron .container {
+    position: relative;
+    z-index: 1;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.jumbotron h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 75px;
+    padding: 100px 0 15px;
+    line-height: 90%;
+}
+
+.jumbotron p {
+    font-family: 'Inter', sans-serif;
+    font-size: 18.8px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-bottom: 140px;
+}
+
+.jumbotron .tombol {
+    margin-top: -228px;
+    border-radius: 40px;
+    font-size: 20px;
+    font-family: 'Archivo Black', sans-serif;
+    text-shadow: none;
+    background-color: #3824CD;
+}
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    position: absolute;
+    bottom: 0;
+}
+
+.full-width-container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.hald img {
+    height: 100vh;
+    width: 100%;
+}
+
+.coldua h2 {
+    font-size: 60px;
+    font-family: 'Archivo Black', sans-serif;
+    margin-top: 120px;
+}
+
+.coldua p {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 25px;
+}
+
+.tombol {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 20px;
+    border-radius: 40px;
+    margin-top: 20px;
+    background-color: #3824CD;
+}
+
+.haltiga h2 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 45px;
+    margin-top: 50px;
+}
+
+.haltiga p {
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    color: #3824CD;
+    margin-top: -8px;
+}
+
+.haltiga h5 {
+    color: #3824CD;
+}
+
+.haltiga .card p {
+    color: black;
+}
+
+.card {
+    margin-bottom: 50px;
+}
+
+.card h1 {
+    color: #e1e1e1;
+}
+
+.card-body p {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.card-body h5 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.halempat h2 {
+    font-family: 'Archivo Black', sans-serif;
+    height: 12vh;
+    text-align: center;
+    line-height: 12vh;
+}
+
+.gambar {
+    height: 88vh;
+}
+
+.satu {
+    background-image: url('../img/speakers1.png');
+    background-size: cover;
+    position: relative;
+}
+
+.dua {
+    background-image: url('../img/speakers2.png');
+    background-size: cover;
+    position: relative;
+}
+
+.tiga {
+    background-image: url('../img/speakers3.png');
+    background-size: cover;
+    position: relative;
+}
+
+.speakers {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.speakers h5 {
+    font-family: 'Archivo-Black', sans-serif;
+    font-weight: bold;
+}
+
+.speakers p {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+}
+
+.akhir {
+    height: 100vh;
+    background-image: url('../img/canopi.png');
+    background-size: cover;
+}
+
+.empat h3 {
+    font-family: 'Archivo Black', sans-serif;
+    margin-bottom: 80px;
+}
+
+.empat h5 {
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #3824CD;
+    font-size: 15px;
+}
+
+.empat .kiri div p {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+}
+
+.empat .kiri {
+    padding-left: 100px;
+    padding-top: 60px;
+}
+
+.empat .kiri div {
+    margin-bottom: 50px;
+}
+
+.empat .kanan h3 {
+    margin-top: 250px;
+    font-size: 40px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+.empat .kanan .tombol {
+    margin-top: -50px;
+    font-family: 'Archivo Black', sans-serif;
+    background-color: #3824CD;
+}
+
+@media (max-width: 767.98px) {
+    .jumbotron h1 {
+        font-size: 55px;
+    }
+    
+    .jumbotron p {
+        font-size: 12.8px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+    
+    .jumbotron .tombol {
+        font-size: 15px;
+    }
+
+    .hald img {
+        height: 60vh;
+        width: 100%;
+    }
+
+    .coldua h2 {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    
+    .coldua p {
+        font-size: 13px;
+        margin-top: 25px;
+    }
+    
+    .tombol {
+        font-size: 15px;
+        border-radius: 40px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+}
